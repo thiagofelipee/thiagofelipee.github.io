@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fechamento</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+<header>
+<h1>vendas do dia</h1>
+</header>
+
+<section>
+    <div> <center><p>digite os valores</p></center>
+     <center>dinheiro:<input type="number" name="txtdinheiro" id="txtdinheiro"> 
+        <p>debito: <input type="number" name="txtdebito" id="txtdebito"> </p>
+        <p>credito: <input type="number" name="txtcredito" id="txtcredito"></p>
+        <p>alimentação: <input type="number" name="txtalimen" id="txtalimen"></p>
+        <p>pix: <input type="number" name="txtpix" id="txtpix"></p>
+
+
+        </center>
+
+    </div>
+    <div>
+    <center>
+        <p>recarga:<input type="number" name="txtrecarga" id="txtrecarga"></p>
+        
+        </center>
+    </div>
+
+<div>
+   <center>
+    <p>digite o valor total das retiradas</p><input type="number" name="txtretiradas" id="txtretiradas"></p>
+<p><input type="button" value="verificar" onclick="retiradas(),verificar(),verificarRecarga()" ></p>
+</center>
+<div id = 'res'>
+    
+</div>
+<div id="resre">
+
+</div>
+</div>
+<div id="retirada"></div>
+</section>
+<footer>
+<p>&copy;thiago felipe desenvolvedor de software</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
